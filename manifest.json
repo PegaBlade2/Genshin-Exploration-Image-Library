@@ -1,0 +1,23 @@
+{
+    "name": "Genshin Exploration Image Library",
+    "short_name": "Genshin Images",
+    "description": "A library of images from places in Genshin Impact.",
+    "scope": "/Genshin-Exploration-Image-Library/",
+    "start_url": "/Genshin-Exploration-Image-Library/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4CAF50",
+    "icons": [
+      {
+        "src": "icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
