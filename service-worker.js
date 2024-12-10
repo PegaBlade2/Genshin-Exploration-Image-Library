@@ -1,4 +1,4 @@
-const cacheName = 'genshin-images-cache-v1.1';
+const cacheName = 'genshin-images-cache-v1';
 const assets = [
     '/',
     '/index.html',
@@ -7,8 +7,7 @@ const assets = [
     '/img/Chasca Mondstadt-Liyue.png',
     '/img/Waypoint Sunset Liyue.png',
     '/icons/icon-192x192.png',
-    '/icons/icon-512x512.png',
-    'manifest.json'
+    '/icons/icon-512x512.png'
 ];
 
 // Install Service Worker
