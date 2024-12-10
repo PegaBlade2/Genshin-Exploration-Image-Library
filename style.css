@@ -11,7 +11,7 @@ body {
 }
 
 .show {
-    width: 80vw;
+    width: 100%;
     height: auto;
     border-radius: 20px;
     border: 0px;
@@ -33,4 +33,27 @@ h2 {
 
 p {
     margin-top: 10px;
+}
+
+/* For image container, display images and text in grid */
+.image-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Default: 1 location per row */
+    gap: 20px; /* Space between location items */
+}
+
+/* For larger screens, display 2 locations per row */
+@media (min-width: 768px) {
+    .image-container {
+        grid-template-columns: 1fr 1fr; /* 2 locations per row */
+    }
+}
+
+/* Style for each location item (image + description) */
+.location-item {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
 }
