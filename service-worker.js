@@ -6,6 +6,7 @@ const assets = [
     '/script.js',
     '/img/Chasca Mondstadt-Liyue.png',
     '/img/Waypoint Sunset Liyue.png',
+    '/img/Chenyu Vale 1.png',
     '/icons/icon-192x192.png',
     '/icons/icon-512x512.png'
 ];

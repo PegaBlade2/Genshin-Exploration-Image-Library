@@ -45,7 +45,7 @@ p {
 /* For larger screens, display 2 locations per row */
 @media (min-width: 768px) {
     .image-container {
-        grid-template-columns: 1fr 1fr; /* 2 locations per row */
+        grid-template-columns: repeat(2, 1fr); /* 2 locations per row */
     }
 }
 
