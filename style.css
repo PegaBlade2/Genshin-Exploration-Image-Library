@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Torus';
+    src: url('Torus Regular.otf');
+}
+
+body {
+    text-align: center;
+    font-family: Torus;
+}
