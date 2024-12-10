@@ -6,4 +6,31 @@
 body {
     text-align: center;
     font-family: Torus;
+    margin: 40px;
+    padding: 0px;
+}
+
+.show {
+    width: 80vw;
+    height: auto;
+    border-radius: 20px;
+    border: 0px;
+    max-width: 500px;
+    min-width: 200px;
+    margin-bottom: 0px;
+}
+
+.small-break::after {
+    content: ""; 
+    display: block;
+    height: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+p {
+    margin-top: 10px;
 }
